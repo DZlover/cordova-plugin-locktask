@@ -13,7 +13,7 @@ import org.json.JSONException;
 
 public class LockTask extends CordovaPlugin {
 
-  private static final String ACTION_START_LOCK_TASK = "startLockTask";
+  private static final String ACTION_START_LOCK_TASK = "setLockTaskPackages";
   private static final String ACTION_STOP_LOCK_TASK = "stopLockTask";
 
   private Activity activity = null;
