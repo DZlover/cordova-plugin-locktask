@@ -46,7 +46,7 @@ public class LockTask extends CordovaPlugin {
 
           }
 
-          activity.startLockTask();
+          activity.setLockTaskPackages();
         }
 
         callbackContext.success();
