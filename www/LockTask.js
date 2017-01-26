@@ -3,7 +3,7 @@ module.exports = {
     if (adminClassName == null) {
       adminClassName = '';
     }
-    cordova.exec(successCallback, errorCallback, "LockTask", "startLockTask", [adminClassName]);
+    cordova.exec(successCallback, errorCallback, "LockTask", "setLockTaskPackages", [adminClassName]);
   },
   stopLockTask: function (successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, "LockTask", "stopLockTask", []);
